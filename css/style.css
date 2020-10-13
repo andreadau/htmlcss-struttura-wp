@@ -6,7 +6,7 @@
 
 body {
   background-image: url("../img/natural-default-pattern.png");
-  width: 60%;
+  width: 60vw;
   height: 100vh;
   margin: auto;
   font-family: 'Montserrat',Arial,Helvetica,sans-serif;
@@ -51,17 +51,21 @@ body {
   width: 100%;
   text-align: center;
 }
+
 .navbar ul {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
+
 ul > li {
-  max-width: 100%;
   text-decoration: none;
   color: white;
-  margin-top: 0.3em;
   padding: 1em;
   display: inline-block;
   text-transform: uppercase;
   position: relative;
 }
+
+.navbar li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
